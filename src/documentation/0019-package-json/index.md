@@ -1,7 +1,7 @@
 ---
 title: The package.json guide
 description: 'The package.json file is a key element in lots of app codebases based on the Node.js ecosystem.'
-authors: flaviocopes, MylesBorins, fhemberger, LaRuaNa, jgb-solutions, amiller-gh, ahmadawais
+authors: flaviocopes, MylesBorins, fhemberger, LaRuaNa, jgb-solutions, amiller-gh, ahmadawais, dephraiim
 section: Getting Started
 ---
 
@@ -388,7 +388,7 @@ They differ from `dependencies` because they are meant to be installed only on a
 When you install a package using npm or yarn:
 
 ```sh
-npm install --dev <PACKAGENAME>
+npm install --save-dev <PACKAGENAME>
 yarn add --dev <PACKAGENAME>
 ```
 
